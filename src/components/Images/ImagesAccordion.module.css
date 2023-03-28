@@ -1,0 +1,67 @@
+.this-week {
+  background-color: var(--green-300);
+}
+
+.this-week span {
+  color: #6bc231;
+}
+
+.this-month {
+  background-color: var(--orange-300);
+}
+
+.this-month span {
+  color: #664711;
+}
+
+.long-time-ago {
+  background-color: var(--red-300);
+}
+
+.long-time-ago span {
+  color: #643939;
+}
+
+.accordion {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.accordion--closed {
+  border-radius: 1rem;
+}
+
+.accordion__toggle {
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.accordion__toggle--up {
+  transform: rotate(180deg);
+}
+
+.accordion__container {
+  width: 100%;
+}
+
+.panel {
+  transition: display 1s;
+}
+
+.panel--hidden {
+  display: none;
+}
+
+.no-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-imgs span {
+  font-size: 1.3rem;
+}

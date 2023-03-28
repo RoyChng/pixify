@@ -1,0 +1,40 @@
+:root {
+  --red-900: #f37878;
+  --red-700: #ff9595;
+  --red-500: #faa6a6;
+  --red-300: #ffb3b3;
+  --red-100: #ffdede;
+
+  --orange-900: #ffbf53;
+  --orange-700: #ffcb74;
+  --orange-500: #fad9a1;
+  --orange-300: #feebcb;
+  --orange-100: #fff0d6;
+
+  --green-900: #6bc231;
+  --green-700: #baff8b;
+  --green-500: #d9f8c4;
+  --green-300: #e6ffd6;
+  --green-100: #f3f9ef;
+
+  --graytone-900: #424242;
+  --graytone-700: #525252;
+  --graytone-500: #8e8e8e;
+  --graytone-300: #c6c6c6;
+  --graytone-100: #dedede;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.1rem;
+}
+
+#modal-root {
+  position: relative;
+}

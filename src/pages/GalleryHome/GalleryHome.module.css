@@ -1,0 +1,18 @@
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn-more {
+  background-color: var(--green-300);
+  color: var(--green-900);
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding: 10px 60px;
+  cursor: pointer;
+  margin: 50px auto;
+  border-radius: 1rem;
+}

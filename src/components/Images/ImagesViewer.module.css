@@ -1,0 +1,45 @@
+.imgs-viewer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 10vw;
+}
+
+.imgs-viewer--columnless {
+  grid-template-columns: 1fr;
+}
+
+.imgs-viewer-thin {
+  padding: 20px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.this-week {
+  background-color: var(--green-300);
+}
+
+.this-month {
+  background-color: var(--orange-300);
+}
+
+.long-time-ago {
+  background-color: var(--red-300);
+}
+
+.img-col {
+  width: 100%;
+}
+
+.img-col img {
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  max-height: 600px;
+  object-fit: cover;
+  cursor: zoom-in;
+  transition: opacity 0.2s;
+}
+
+.img-col img:hover {
+  opacity: 0.6;
+}

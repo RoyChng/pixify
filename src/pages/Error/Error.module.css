@@ -1,0 +1,13 @@
+.error__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 10px;
+}
+
+.error__container i {
+  font-size: 4rem;
+  color: var(--red-900);
+}

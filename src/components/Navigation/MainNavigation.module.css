@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10vw;
+  border-bottom: 15px solid var(--orange-900);
+}
+
+.nav__img {
+  width: 70px;
+}
+
+.nav__link {
+  color: var(--red-900);
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
